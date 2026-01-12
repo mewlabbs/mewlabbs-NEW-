@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <filter id="idleGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2.5" flood-color="#D49EFF" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <g filter="url(#idleGlow)">
+    <circle cx="24" cy="24" r="22.5" fill="rgba(212,158,255,0.10)" stroke="#D49EFF" stroke-opacity="0.6" stroke-width="1.5"/>
+  </g>
+  <g stroke="#D49EFF" stroke-width="3" stroke-linecap="round" opacity="0.9">
+    <path d="M16 16 L32 32"/>
+    <path d="M32 16 L16 32"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <filter id="idleGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2.5" flood-color="#D49EFF" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <g filter="url(#idleGlow)">
+    <circle cx="24" cy="24" r="22.5" fill="rgba(212,158,255,0.10)" stroke="#D49EFF" stroke-opacity="0.6" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(12.000,12.000) scale(0.7500)" fill="#D49EFF" stroke="#D49EFF" opacity="0.9">
+    <ns0:g xmlns:ns0="http://www.w3.org/2000/svg" data-name="mail email e-mail letter" id="mail_email_e-mail_letter"><ns0:path d="M28,13a1,1,0,0,0-1,1v8a1,1,0,0,1-1,1H6a1,1,0,0,1-1-1V14a1,1,0,0,0-2,0v8a3,3,0,0,0,.88,2.12A3,3,0,0,0,6,25H26a3,3,0,0,0,2.12-.88A3,3,0,0,0,29,22V14A1,1,0,0,0,28,13Z" /><ns0:path d="M15.4,18.8a1,1,0,0,0,1.2,0L28.41,9.94a1,1,0,0,0,.3-1.23,3.06,3.06,0,0,0-.59-.83A3,3,0,0,0,26,7H6a3,3,0,0,0-2.12.88,3.06,3.06,0,0,0-.59.83,1,1,0,0,0,.3,1.23ZM6,9H26a.9.9,0,0,1,.28,0L16,16.75,5.72,9A.9.9,0,0,1,6,9Z" /></ns0:g>
+  </g>
+</svg>
