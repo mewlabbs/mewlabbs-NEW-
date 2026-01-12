@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MewLabbs</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Background canvas for stars -->
+    <canvas id="stars"></canvas>
+
+    <main class="page">
+      <!-- Container 1: HERO -->
+      <section class="card hero">
+        <img class="pfp" src="./assets/pfp.png" alt="Profile photo" />
+        <h1>MewLabbs</h1>
+        <p class="bio">Healing • voice • stories • guidance</p>
+
+        <div class="icons">
+          <a class="icon" href="#" aria-label="X">X</a>
+          <a class="icon" href="mailto:you@email.com" aria-label="Email">@</a>
+          <a class="icon" href="#mailing" aria-label="Mailing list">✉</a>
+        </div>
+
+        <a class="button primary" href="#" target="_blank" rel="noreferrer">Cameo</a>
+      </section>
+
+      <!-- Container 2: LINKS / OFFER -->
+      <section class="card links" id="mailing">
+        <h2>Links</h2>
+        <a class="button" href="#" target="_blank" rel="noreferrer">Audiobook — Coming Soon</a>
+
+        <div class="mailing">
+          <h3>18+ Mailing List</h3>
+          <p class="small">Get my official links by email.</p>
+
+          <form>
+            <input type="email" placeholder="you@email.com" required />
+            <label class="check">
+              <input type="checkbox" required />
+              I confirm I am 18+
+            </label>
+            <button type="submit" class="button">Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Container 3: EXTRAS -->
+      <section class="card extras">
+        <h2>Extras</h2>
+
+        <div class="grid">
+          <div class="panel">
+            <h3>Wishlist</h3>
+            <p class="small">Embed your wishlist link here.</p>
+            <a class="button" href="#" target="_blank" rel="noreferrer">Open Wishlist</a>
+          </div>
+
+          <div class="panel">
+            <h3>YouTube</h3>
+            <p class="small">Embed your channel or latest video.</p>
+            <!-- Replace the src with your YouTube embed -->
+            <iframe
+              class="yt"
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              title="YouTube video"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./terms.html">Terms of Service</a>
+        <span>18+ only</span>
+      </footer>
+    </main>
+
+    <!-- GSAP (this is how you add it in a simple HTML site) -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+
+    <!-- Your JS -->
+    <script src="./script.js"></script>
+  </body>
+</html>
