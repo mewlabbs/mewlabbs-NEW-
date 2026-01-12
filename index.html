@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MewLabbs</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <title>⟡ MewLabbs ⟡</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Quicksand:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Background canvas for stars -->
@@ -13,63 +19,87 @@
     <main class="page">
       <!-- Container 1: HERO -->
       <section class="card hero">
-        <img class="pfp" src="./assets/pfp.png" alt="Profile photo" />
-        <h1>MewLabbs</h1>
-        <p class="bio">Healing • voice • stories • guidance</p>
+        <h1>⟡ MewLabbs ⟡</h1>
+        <p class="subtitle">Soft guidance, starlit storytelling, and gentle magic.</p>
+        <img class="pfp" src="./assets/profile.png" alt="MewLabbs profile photo" />
 
         <div class="icons">
-          <a class="icon" href="#" aria-label="X">X</a>
-          <a class="icon" href="mailto:you@email.com" aria-label="Email">@</a>
-          <a class="icon" href="#mailing" aria-label="Mailing list">✉</a>
-        </div>
-
-        <a class="button primary" href="#" target="_blank" rel="noreferrer">Cameo</a>
-      </section>
-
-      <!-- Container 2: LINKS / OFFER -->
-      <section class="card links" id="mailing">
-        <h2>Links</h2>
-        <a class="button" href="#" target="_blank" rel="noreferrer">Audiobook — Coming Soon</a>
-
-        <div class="mailing">
-          <h3>18+ Mailing List</h3>
-          <p class="small">Get my official links by email.</p>
-
-          <form>
-            <input type="email" placeholder="you@email.com" required />
-            <label class="check">
-              <input type="checkbox" required />
-              I confirm I am 18+
-            </label>
-            <button type="submit" class="button">Subscribe</button>
-          </form>
+          <a class="icon" href="#" aria-label="Twitch">
+            <img src="./assets/twitch-svgrepo-com.svg" alt="" />
+          </a>
+          <a class="icon" href="#" aria-label="X">
+            <img src="./assets/x.svg" alt="" />
+          </a>
+          <a class="icon" href="#" aria-label="Facebook">
+            <img src="./assets/facebook.svg" alt="" />
+          </a>
+          <a class="icon" href="#" aria-label="Instagram">
+            <img src="./assets/instagram.svg" alt="" />
+          </a>
+          <a class="icon" href="#" aria-label="Reddit">
+            <img src="./assets/reddit.svg" alt="" />
+          </a>
+          <a class="icon" href="#" aria-label="Email">
+            <img src="./assets/email.svg" alt="" />
+          </a>
         </div>
       </section>
 
-      <!-- Container 3: EXTRAS -->
-      <section class="card extras">
-        <h2>Extras</h2>
+      <!-- Container 2: CAMEO -->
+      <section class="card">
+        <h2 class="section-title">ANGEL WHISPERS</h2>
+        <p class="muted">
+          Personalized videos for encouragement, tarot insight, and dark-romance storytelling. Vent, request a
+          story, or ask for gentle, non-professional guidance in a safe and dreamy space.
+        </p>
+        <div class="button-row">
+          <a class="button primary" href="#" target="_blank" rel="noreferrer">Personalized Videos</a>
+        </div>
+      </section>
 
-        <div class="grid">
-          <div class="panel">
-            <h3>Wishlist</h3>
-            <p class="small">Embed your wishlist link here.</p>
-            <a class="button" href="#" target="_blank" rel="noreferrer">Open Wishlist</a>
-          </div>
+      <!-- Container 3: OLD X -->
+      <section class="card">
+        <h2 class="section-title">OLD X (18+)</h2>
+        <p class="muted">18+ only. Links routed through Link.me.</p>
+        <div class="button-row">
+          <a class="button primary" href="#" target="_blank" rel="noreferrer">Old X Profile</a>
+          <a class="button" href="#" target="_blank" rel="noreferrer">Link.me</a>
+        </div>
+      </section>
 
-          <div class="panel">
-            <h3>YouTube</h3>
-            <p class="small">Embed your channel or latest video.</p>
-            <!-- Replace the src with your YouTube embed -->
-            <iframe
-              class="yt"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-              title="YouTube video"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
+      <!-- Container 4: PRIVATE ACCESS -->
+      <section class="card" id="mailing">
+        <h2 class="section-title">PRIVATE ACCESS (18+)</h2>
+        <p class="muted">Join the mailing list to receive official 18+ links by email.</p>
+        <form class="form">
+          <input class="input" type="email" placeholder="you@email.com" required />
+          <label class="check">
+            <input type="checkbox" required />
+            I confirm I am 18+
+          </label>
+          <span class="note">You’ll receive an email with official links after confirming.</span>
+          <button type="submit" class="button primary">Join the list</button>
+        </form>
+        <div class="embed">
+          <!-- PASTE EMAIL PROVIDER EMBED (CONVERTKIT/MAILCHIMP) HERE -->
+          Paste your ConvertKit/Mailchimp form embed here when ready.
+        </div>
+      </section>
+
+      <!-- Container 5: YOUTUBE -->
+      <section class="card">
+        <h2 class="section-title">YouTube</h2>
+        <div class="video-card">
+          <iframe
+            class="yt"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="YouTube placeholder"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="button-row">
+          <a class="button" href="#" target="_blank" rel="noreferrer">Visit Channel</a>
         </div>
       </section>
 
@@ -80,7 +110,6 @@
       </footer>
     </main>
 
-    <!-- GSAP (this is how you add it in a simple HTML site) -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
 
     <!-- Your JS -->
